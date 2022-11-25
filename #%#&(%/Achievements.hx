@@ -12,10 +12,10 @@ using StringTools;
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["You know what, I'm leaving.",		"Beat The Corrupt's Machinery Week with less than 5 misses.",				'machinery_beaten',			false],
-		["Ow- *glitching noises*",		"Somehow Press 7 and pause at the same time, then Unlock the Extras menu.",				'extras_unlocked',			true],
-		["Grahhhhhh!",		"Collect all the Index Characters.",				'index_cracked',			true],
-		["Why",		"Beat Unknown with less than 5 misses.",				'secret_beaten',			true],
-		["I'M NOT A MACHINE!",		"Beat Empty after beating Corrupt's Machinery.",				'empty_beaten',			true]
+		["Ow- *glitching noises*",		"Somehow Press 7 and pause at the same time, then Unlock the Extras menu.",				'extras_unlocked',			false],
+		["Grahhhhhh!",		"Collect all the Index Characters.",				'index_cracked',			false],
+		["Why",		"Beat Unknown with less than 5 misses.",				'secret_beaten',			false],
+		["I'M NOT A MACHINE!",		"Beat Empty after beating Corrupt's Machinery.",				'empty_beaten',			false]
 	];
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 	public static function unlockAchievement(name:String):Void {
