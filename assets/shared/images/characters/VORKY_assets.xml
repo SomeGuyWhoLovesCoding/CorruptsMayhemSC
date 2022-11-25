@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="VORKY_assets.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Vorky Idle0000" x="32" y="32" width="290" height="215" frameX="0" frameY="-38" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Idle0001" x="372" y="32" width="262" height="227" frameX="-14" frameY="-26" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Idle0002" x="684" y="32" width="255" height="231" frameX="-17" frameY="-23" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Idle0003" x="989" y="32" width="253" height="232" frameX="-18" frameY="-22" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Left0000" x="1292" y="32" width="290" height="228" frameX="0" frameY="-26" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Left0001" x="1632" y="32" width="265" height="227" frameX="-15" frameY="-26" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Left0002" x="32" y="314" width="260" height="228" frameX="-18" frameY="-25" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Down0000" x="342" y="314" width="289" height="215" frameX="-3" frameY="-38" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Down0001" x="681" y="314" width="267" height="226" frameX="-14" frameY="-27" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Down0002" x="998" y="314" width="263" height="228" frameX="-16" frameY="-25" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Up0000" x="1311" y="314" width="261" height="252" frameX="-18" frameY="0" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Up0001" x="1622" y="314" width="266" height="230" frameX="-15" frameY="-22" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Up0002" x="32" y="616" width="267" height="227" frameX="-15" frameY="-25" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Right0000" x="349" y="616" width="290" height="227" frameX="-6" frameY="-26" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Right0001" x="689" y="616" width="265" height="227" frameX="-16" frameY="-26" frameWidth="296" frameHeight="254"/>
+	<SubTexture name="Vorky Right0002" x="1004" y="616" width="261" height="228" frameX="-17" frameY="-25" frameWidth="296" frameHeight="254"/>
+</TextureAtlas>

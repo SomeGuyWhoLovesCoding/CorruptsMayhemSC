@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["Murderer", "corrupt", [88, 88, 88]],
+		["Peek a Kill", "corrupt", [77, 77, 77]],
+		["Unsolicited", "corrupt", [66, 66, 66]]
+	],
+
+	"weekCharacters": [
+		"corrupt",
+		"bf",
+		"gf-cage"
+	],
+	"weekBackground": "machinery",
+
+	"storyName": "Corrupt's Machinery",
+	"weekBefore": "",
+	"weekName": "Corrupt's Machinery",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

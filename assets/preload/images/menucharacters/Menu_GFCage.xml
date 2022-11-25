@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_GFCage.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M GF Caged Idle0000" x="100" y="100" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0001" x="665" y="100" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0002" x="1230" y="100" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0003" x="1795" y="100" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0004" x="2360" y="100" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0005" x="100" y="632" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0006" x="665" y="632" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0007" x="1230" y="632" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0008" x="1795" y="632" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0009" x="2360" y="632" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0010" x="100" y="1164" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0011" x="665" y="1164" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0012" x="1230" y="1164" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0013" x="1795" y="1164" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0014" x="2360" y="1164" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0015" x="100" y="1696" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0016" x="665" y="1696" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0017" x="1230" y="1696" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0018" x="1795" y="1696" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0019" x="2360" y="1696" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0020" x="100" y="2228" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0021" x="665" y="2228" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0022" x="1230" y="2228" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0023" x="1795" y="2228" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0024" x="2360" y="2228" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0025" x="100" y="2760" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0026" x="665" y="2760" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0027" x="1230" y="2760" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0028" x="1795" y="2760" width="565" height="532"/>
+	<SubTexture name="M GF Caged Idle0029" x="2360" y="2760" width="565" height="532"/>
+</TextureAtlas>

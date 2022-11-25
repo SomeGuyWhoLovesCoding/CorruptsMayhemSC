@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M Corrupt Idle",
+	"confirm_anim": "M Corrupt Idle",
+	"position": [
+		181,
+		134
+	],
+	"scale": 0.55,
+	"image": "Menu_Corrupt"
+}

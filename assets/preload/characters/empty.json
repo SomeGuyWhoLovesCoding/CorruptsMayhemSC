@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 44,
+			"anim": "idle",
+			"indices": [],
+			"name": "Empty Idle Dance"
+		},
+		{
+			"offsets": [
+				177,
+				-6
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Empty Sing Note Left"
+		},
+		{
+			"offsets": [
+				-20,
+				0
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Empty Sing Note Down"
+		},
+		{
+			"offsets": [
+				-49,
+				4
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Empty Sing Note Right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				101
+			],
+			"anim": "singUP",
+			"fps": 40,
+			"name": "Empty Sing Note Up0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				40,
+				131
+			],
+			"anim": "singUP-alt",
+			"fps": 60,
+			"name": "Empty Sing Note Up-alt0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/EMPTY_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "empty",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.95
+}

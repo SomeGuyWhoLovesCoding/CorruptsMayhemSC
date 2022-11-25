@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CORRUPT.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Corrupt Idle Dance0000" x="0" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0001" x="509" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0002" x="1018" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0003" x="1527" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0004" x="2036" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0005" x="2036" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Idle Dance0006" x="2036" y="0" width="509" height="644"/>
+	<SubTexture name="Corrupt Instance0000" x="2545" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0001" x="3263" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0002" x="3981" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0003" x="4699" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0004" x="5417" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0005" x="5417" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0006" x="5417" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0007" x="6135" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0008" x="6853" y="0" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0009" x="0" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0010" x="718" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0011" x="1436" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0012" x="2154" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0013" x="2872" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0014" x="3590" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0015" x="4308" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0016" x="5026" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0017" x="5744" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0018" x="6462" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0019" x="7180" y="796" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0020" x="0" y="1592" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0021" x="718" y="1592" width="718" height="796"/>
+	<SubTexture name="Corrupt Instance0022" x="1436" y="1592" width="718" height="796"/>
+	<SubTexture name="Corrupt Sing Note Down0000" x="2154" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0001" x="2587" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0002" x="3020" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0003" x="3453" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0004" x="3886" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0005" x="3886" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Down0006" x="3886" y="1592" width="433" height="644"/>
+	<SubTexture name="Corrupt Sing Note Left0000" x="4319" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0001" x="4811" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0002" x="5303" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0003" x="5795" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0004" x="6287" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0005" x="6287" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Left0006" x="6287" y="1592" width="492" height="652"/>
+	<SubTexture name="Corrupt Sing Note Right0000" x="6779" y="1592" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0001" x="0" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0002" x="718" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0003" x="1436" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0004" x="2154" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0005" x="2154" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Right0006" x="2154" y="2388" width="718" height="649"/>
+	<SubTexture name="Corrupt Sing Note Up0000" x="2872" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0001" x="3376" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0002" x="3880" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0003" x="4384" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0004" x="4888" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0005" x="4888" y="2388" width="504" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0006" x="4888" y="2388" width="504" height="792"/>
+</TextureAtlas>

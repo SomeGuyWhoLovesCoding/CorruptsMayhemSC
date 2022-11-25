@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				0
+			],
+			"anim": "idle",
+			"fps": 21,
+			"name": "Unknown Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 21,
+			"name": "Unknown Sing Note Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				103,
+				-42
+			],
+			"anim": "singDOWN",
+			"fps": 21,
+			"name": "Unknown Sing Note Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				101,
+				120
+			],
+			"anim": "singUP",
+			"fps": 21,
+			"name": "Unknown Sing Note Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				143,
+				5
+			],
+			"anim": "singRIGHT",
+			"fps": 21,
+			"name": "Unknown Sing Note Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/UNKNOWN_assets",
+	"position": [
+		-20,
+		130
+	],
+	"healthicon": "unknown",
+	"flip_x": false,
+	"healthbar_colors": [
+		130,
+		130,
+		110
+	],
+	"camera_position": [
+		100,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.95
+}

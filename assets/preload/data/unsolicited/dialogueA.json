@@ -1,0 +1,92 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "YOU'RE RUINING EVERYTHING!"
+		},
+		{
+			"sound": "",
+			"speed": 0.15,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "*Turns Crazy*"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "TIME TO DIIIIIIIIEEEEEE"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "What happened to you?"
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "KILL YOURSELF. RIGHT NOW."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Screw you. I'm doing another rap battle."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "OKAY, YOU MADE ME TURN INSANE LAST YEAR. YOU MADE A MESS ON THE TABLE. YOU MADE A HUGE PILE OF GROSS PICTURES ON MY WALL, ETCETERA! THAT'S WHY-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "I'm not stupid. I am very serious."
+		},
+		{
+			"sound": "",
+			"speed": 0.12,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "IT'S. NOT. YOU STUPID BRAT. YOU ARE DONE!!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Okay, we'll see about that."
+		},
+		{
+			"sound": "",
+			"speed": 0.035,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "MY SAW HERE IS PREPARED FOR YOU."
+		}
+	]
+}

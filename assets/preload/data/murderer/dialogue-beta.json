@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"sound": "dialouge/corrupt",
+			"speed": 0.11,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello?"
+		},
+		{
+			"sound": "dialouge/corrupt",
+			"speed": 0.085,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Who is this?"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Who are you???"
+		},
+		{
+			"sound": "dialouge/corrupt",
+			"speed": 0.08,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YOU WERE THE ONE WHO RAP BATTLED ME LAST YEAR!!!"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Why did you call me?"
+		},
+		{
+			"sound": "dialouge/corrupt",
+			"speed": 0.05,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "BECAUSE I WANT TO HAVE FUN SINGING AGAIN AFTER MANY MANY MONTHS!!!!!"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "Are you gonna kill my girlfriend again???"
+		},
+		{
+			"sound": "dialouge/corrupt",
+			"speed": 0.01,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "YES!!!!!!!!!!!!!!!!!!!!"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You know what? I'm just gonna do a bit of my solo before that evil robot comes."
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Who was that?"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Corrupt. He Rap battled me last year, and We Just got to his lair."
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Is that true??"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yes."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "demon",
+			"text": "*Throws Microphone*"
+		},
+		{
+			"sound": "dialouge/boyfriend",
+			"speed": 0.08,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Thanks."
+		}
+	]
+}

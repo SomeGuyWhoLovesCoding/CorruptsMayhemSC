@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="joke_corrupt_glitchyfuck.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="icon0000" x="25" y="25" width="120" height="80" frameX="-13" frameY="-10" frameWidth="137" frameHeight="99"/>
+	<SubTexture name="icon0001" x="170" y="25" width="109" height="79" frameX="-18" frameY="-11" frameWidth="137" frameHeight="99"/>
+	<SubTexture name="icon0002" x="304" y="25" width="121" height="84" frameX="-16" frameY="-15" frameWidth="137" frameHeight="99"/>
+	<SubTexture name="icon0003" x="25" y="134" width="133" height="97" frameX="0" frameY="0" frameWidth="137" frameHeight="99"/>
+	<SubTexture name="icon0004" x="183" y="134" width="122" height="81" frameX="-12" frameY="-11" frameWidth="137" frameHeight="99"/>
+</TextureAtlas>

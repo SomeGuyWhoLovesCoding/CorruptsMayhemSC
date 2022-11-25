@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ui.png">
+	<!-- The Sprites that were unused are now used so.... -->
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="butt_graph0000" x="0" y="0" width="45" height="45"/>
+	<SubTexture name="butt_graph0001" x="0" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0002" x="0" y="90" width="45" height="45"/>
+	<SubTexture name="butt_graph0003" x="0" y="135" width="45" height="45"/>
+	<SubTexture name="butt_graph0004" x="45" y="0" width="45" height="45"/>
+	<SubTexture name="butt_graph0005" x="90" y="0" width="45" height="45"/>
+	<SubTexture name="butt_graph0006" x="135" y="0" width="45" height="45"/>
+	<SubTexture name="butt_graph0007" x="45" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0008" x="45" y="90" width="45" height="45"/>
+	<SubTexture name="butt_graph0009" x="45" y="135" width="45" height="45"/>
+	<SubTexture name="butt_graph0010" x="45" y="135" width="45" height="45"/>
+	<SubTexture name="butt_graph0011" x="90" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0012" x="90" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0013" x="135" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0014" x="135" y="45" width="45" height="45"/>
+	<SubTexture name="butt_graph0015" x="90" y="90" width="45" height="45"/>
+	<SubTexture name="butt_graph0016" x="90" y="90" width="45" height="45"/>
+</TextureAtlas>

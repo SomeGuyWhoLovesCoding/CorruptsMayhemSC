@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				5,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "BF NOTE LEFT0"
+		},
+		{
+			"offsets": [
+				-20,
+				-51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF NOTE DOWN0"
+		},
+		{
+			"offsets": [
+				-48,
+				-7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF NOTE RIGHT0"
+		},
+		{
+			"offsets": [
+				-3,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "BF HEY"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				27
+			],
+			"anim": "singUP",
+			"fps": 11,
+			"name": "BF NOTE UP0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "BF idle dance"
+		},
+		{
+			"offsets": [
+				39,
+				41
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodge",
+			"loop": false,
+			"name": "boyfriend dodge"
+		},
+		{
+			"offsets": [
+				22,
+				18
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hurt",
+			"loop": false,
+			"name": "BF hit"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Boyfriend_Unknown_Assets",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf-unknown",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		215,
+		60
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.125,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ah, why did I lose?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "HAHA! You're the one who's been killing people all day!"
+		},
+		{
+			"sound": "",
+			"speed": 0.085,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "NO. I WASN'T!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You were."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "gf",
+			"boxState": "angry",
+			"expression": "demon",
+			"text": "Leave my kid alone, corrupt."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "NO, BECAUSE I WANT TO WIN!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "You can't win."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I-"
+		},
+		{
+			"sound": "",
+			"speed": 0.125,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I don't care."
+		},
+		{
+			"sound": "",
+			"speed": 0.035,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Let's do another rap battle and see how it plays out."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "No."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "YES! LET'S GO!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "I said no. Let me say a sentence first. Ready?"
+		},
+		{
+			"sound": "",
+			"speed": 0.055,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "BITCH."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Okay, another Rap Battle."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "I hope he doesn't turn crazy."
+		}
+	]
+}

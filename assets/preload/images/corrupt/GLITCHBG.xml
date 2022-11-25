@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GLITCHBG.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Glitch BG Instance0000" x="100" y="100" width="430" height="130"/>
+	<SubTexture name="Glitch BG Instance0001" x="530" y="100" width="430" height="130"/>
+	<SubTexture name="Glitch BG Instance0002" x="960" y="100" width="430" height="130"/>
+	<SubTexture name="Glitch BG Instance0003" x="1390" y="100" width="430" height="130"/>
+</TextureAtlas>

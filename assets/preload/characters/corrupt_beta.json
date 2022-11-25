@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "idle",
+			"indices": [],
+			"name": "Corrupt Idle Dance"
+		},
+		{
+			"offsets": [
+				50,
+				10
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Corrupt Sing Note Left"
+		},
+		{
+			"offsets": [
+				-23,
+				15
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Corrupt Sing Note Down"
+		},
+		{
+			"offsets": [
+				-30,
+				120
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Corrupt Sing Note Up"
+		},
+		{
+			"offsets": [
+				33,
+				11
+			],
+			"loop": false,
+			"fps": 21,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Corrupt Sing Note Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/CORRUPT_assets",
+	"position": [
+		-70,
+		160
+	],
+	"healthicon": "corrupt",
+	"flip_x": false,
+	"healthbar_colors": [
+		50,
+		50,
+		50
+	],
+	"camera_position": [
+		100,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.95
+}

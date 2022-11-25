@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Corrupt.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="M Corrupt Idle0000" x="20" y="20" width="499" height="643" frameX="0" frameY="-2" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0001" x="569" y="20" width="495" height="643" frameX="-2" frameY="-2" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0002" x="1114" y="20" width="492" height="643" frameX="-3" frameY="-2" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0003" x="20" y="713" width="490" height="643" frameX="-4" frameY="-2" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0004" x="560" y="713" width="489" height="645" frameX="-4" frameY="0" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0005" x="1099" y="713" width="489" height="643" frameX="-4" frameY="-2" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0006" x="20" y="1408" width="489" height="644" frameX="-4" frameY="-1" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0007" x="559" y="1408" width="489" height="644" frameX="-4" frameY="-1" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0008" x="1098" y="1408" width="488" height="644" frameX="-4" frameY="-1" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0009" x="20" y="2102" width="488" height="644" frameX="-4" frameY="-1" frameWidth="499" frameHeight="645"/>
+	<SubTexture name="M Corrupt Idle0010" x="558" y="2102" width="488" height="644" frameX="-4" frameY="-1" frameWidth="499" frameHeight="645"/>
+</TextureAtlas>

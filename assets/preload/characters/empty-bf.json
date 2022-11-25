@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				0
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "Empty Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				8
+			],
+			"anim": "singLEFT",
+			"fps": 60,
+			"name": "Empty Sing Note Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-2
+			],
+			"anim": "singDOWN",
+			"fps": 60,
+			"name": "Empty Sing Note Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-51,
+				101
+			],
+			"anim": "singUP",
+			"fps": 60,
+			"name": "Empty Sing Note Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-61,
+				4
+			],
+			"anim": "singRIGHT",
+			"fps": 60,
+			"name": "Empty Sing Note Right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/EMPTY_BF",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "empty",
+	"flip_x": true,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		-130,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 0.95
+}

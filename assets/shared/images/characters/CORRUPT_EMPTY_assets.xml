@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CORRUPT_EMPTY_assets.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Corrupt Idle Dance0000" x="0" y="0" width="506" height="641" frameX="0" frameY="-3" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0001" x="506" y="0" width="493" height="643" frameX="-16" frameY="-1" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0002" x="999" y="0" width="488" height="644" frameX="-20" frameY="0" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0003" x="1487" y="0" width="488" height="644" frameX="-20" frameY="0" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0004" x="1975" y="0" width="488" height="644" frameX="-20" frameY="0" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0005" x="1975" y="0" width="488" height="644" frameX="-20" frameY="0" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Idle Dance0006" x="1975" y="0" width="488" height="644" frameX="-20" frameY="0" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Instance0000" x="0" y="0" width="506" height="641" frameX="-69" frameY="-147" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Instance0001" x="506" y="0" width="493" height="643" frameX="-85" frameY="-145" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Instance0002" x="999" y="0" width="488" height="644" frameX="-89" frameY="-143" frameWidth="509" frameHeight="644"/>
+	<SubTexture name="Corrupt Instance0003" x="2463" y="0" width="488" height="645" frameX="-89" frameY="-143" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0004" x="2951" y="0" width="488" height="645" frameX="-89" frameY="-143" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0005" x="2951" y="0" width="488" height="645" frameX="-89" frameY="-143" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0006" x="2951" y="0" width="488" height="645" frameX="-89" frameY="-143" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0007" x="3439" y="0" width="483" height="652" frameX="-62" frameY="-138" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0008" x="0" y="652" width="485" height="650" frameX="-68" frameY="-140" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0009" x="485" y="652" width="485" height="650" frameX="-69" frameY="-140" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0010" x="485" y="652" width="485" height="650" frameX="-69" frameY="-140" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0011" x="970" y="652" width="433" height="643" frameX="-137" frameY="-149" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0012" x="1403" y="652" width="411" height="633" frameX="-151" frameY="-160" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0013" x="1814" y="652" width="409" height="632" frameX="-152" frameY="-161" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0014" x="2223" y="652" width="409" height="632" frameX="-152" frameY="-161" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0015" x="2632" y="652" width="429" height="792" frameX="-127" frameY="0" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0016" x="3061" y="652" width="394" height="773" frameX="-136" frameY="-19" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0017" x="3455" y="652" width="393" height="772" frameX="-136" frameY="-20" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0018" x="3455" y="652" width="393" height="772" frameX="-136" frameY="-20" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0019" x="0" y="1444" width="715" height="647" frameX="-3" frameY="-149" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0020" x="715" y="1444" width="715" height="649" frameX="0" frameY="-147" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0021" x="1430" y="1444" width="715" height="649" frameX="0" frameY="-147" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Instance0022" x="1430" y="1444" width="715" height="649" frameX="0" frameY="-147" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Down0000" x="2145" y="1444" width="433" height="643" frameX="0" frameY="0" frameWidth="433" frameHeight="644"/>
+	<SubTexture name="Corrupt Sing Note Down0001" x="1403" y="652" width="411" height="633" frameX="-14" frameY="-11" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Down0002" x="1814" y="652" width="409" height="632" frameX="-15" frameY="-12" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Down0003" x="2223" y="652" width="409" height="632" frameX="-15" frameY="-12" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0000" x="3439" y="0" width="483" height="652" frameX="0" frameY="0" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0001" x="0" y="652" width="485" height="650" frameX="-6" frameY="-2" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0002" x="485" y="652" width="485" height="650" frameX="-6" frameY="-3" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0003" x="485" y="652" width="485" height="650" frameX="-6" frameY="-3" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0004" x="485" y="652" width="485" height="650" frameX="-6" frameY="-3" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0005" x="485" y="652" width="485" height="650" frameX="-6" frameY="-3" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Left0006" x="485" y="652" width="485" height="650" frameX="-6" frameY="-3" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Right0000" x="0" y="1444" width="715" height="647" frameX="-4" frameY="-1" frameWidth="718" frameHeight="796"/>
+	<SubTexture name="Corrupt Sing Note Right0001" x="2578" y="1444" width="716" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Right0002" x="3294" y="1444" width="715" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Right0003" x="3294" y="1444" width="715" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Right0004" x="3294" y="1444" width="715" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Right0005" x="3294" y="1444" width="715" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Right0006" x="3294" y="1444" width="715" height="649" frameX="0" frameY="0" frameWidth="718" frameHeight="649"/>
+	<SubTexture name="Corrupt Sing Note Up0000" x="0" y="2093" width="429" height="792"/>
+	<SubTexture name="Corrupt Sing Note Up0001" x="429" y="2093" width="394" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Corrupt Sing Note Up0002" x="823" y="2093" width="393" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Corrupt Sing Note Up0003" x="823" y="2093" width="393" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Corrupt Sing Note Up0004" x="823" y="2093" width="393" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Corrupt Sing Note Up0005" x="823" y="2093" width="393" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Corrupt Sing Note Up0006" x="823" y="2093" width="393" height="773" frameX="-9" frameY="-19" frameWidth="429" frameHeight="792"/>
+	<SubTexture name="Talk0000" x="1216" y="2093" width="487" height="654" frameX="-18" frameY="-2" frameWidth="505" frameHeight="656"/>
+	<SubTexture name="Talk0001" x="1703" y="2093" width="491" height="646" frameX="-4" frameY="-10" frameWidth="505" frameHeight="656"/>
+	<SubTexture name="Talk0002" x="2194" y="2093" width="491" height="656" frameX="-1" frameY="0" frameWidth="505" frameHeight="656"/>
+	<SubTexture name="Talk0003" x="2685" y="2093" width="491" height="645" frameX="0" frameY="-11" frameWidth="505" frameHeight="656"/>
+	<SubTexture name="Talk0004" x="3176" y="2093" width="503" height="648" frameX="-1" frameY="-8" frameWidth="505" frameHeight="656"/>
+</TextureAtlas>

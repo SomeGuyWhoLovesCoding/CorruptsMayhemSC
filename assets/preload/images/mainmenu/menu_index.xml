@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_index.png">
+	<SubTexture name="index basic0000" x="396" y="127" width="364" height="113" frameX="-27" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0001" x="396" y="127" width="364" height="113" frameX="-27" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0002" x="396" y="127" width="364" height="113" frameX="-27" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0003" x="364" y="254" width="363" height="112" frameX="-28" frameY="-26" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0004" x="364" y="254" width="363" height="112" frameX="-28" frameY="-26" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0005" x="364" y="254" width="363" height="112" frameX="-28" frameY="-26" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0006" x="0" y="254" width="364" height="113" frameX="-28" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0007" x="0" y="254" width="364" height="113" frameX="-28" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index basic0008" x="0" y="254" width="364" height="113" frameX="-28" frameY="-25" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index white0000" x="0" y="0" width="393" height="127" frameX="-13" frameY="-15" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index white0001" x="393" y="0" width="394" height="127" frameX="-13" frameY="-15" frameWidth="420" frameHeight="160" />
+	<SubTexture name="index white0002" x="0" y="127" width="396" height="127" frameX="-12" frameY="-15" frameWidth="420" frameHeight="160" />
+</TextureAtlas>

@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "M GF Caged Idle",
+	"idle_anim": "M GF Caged Idle",
+	"position": [
+		69,
+		78
+	],
+	"scale": 0.6,
+	"image": "Menu_GFCage"
+}

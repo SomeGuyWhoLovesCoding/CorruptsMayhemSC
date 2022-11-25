@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey, it's me, you fucking bitch."
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "Wh- Who are you??"
+		},
+		{
+			"sound": "",
+			"speed": 0.06,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I REMEMBER RAP BATTLING YOU LAST YEAR!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Then why are you calling me now?\n"
+		},
+		{
+			"sound": "",
+			"speed": 0.105,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "corrupt",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "WANNA HAVE FUN AGAIN?? IT'S TIME."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Seriously. Do I have to sing with you again after a year?!"
+		},
+		{
+			"sound": "",
+			"speed": 0.00500000000000001,
+			"portrait": "corrupt",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "YES!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Girlfriend, who was that guy?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Corrupt. I remember him too."
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "HOW!?"
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "I almost got killed."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "The Guy Who Murders People?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "YES, I KNOW."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Is it true or not?"
+		},
+		{
+			"sound": "",
+			"speed": 0.045,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "demon",
+			"text": "*Hands boyfriend mic*"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "I'll see who proves it!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "and I'll do a solo first!"
+		}
+	]
+}
