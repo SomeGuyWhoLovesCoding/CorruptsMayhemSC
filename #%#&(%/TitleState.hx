@@ -693,9 +693,6 @@ class TitleState extends MusicBeatState
 					addMoreText('God damn Demo', 12);
 				case 28:
 					addMoreText('You fucking bitchess!!', 12);
-				case 28:
-					deleteCoolText();
-					createCoolText(['Idk how'], 12);
 				case 30:
 					deleteCoolText();
 					createCoolText(['IT\'S TIME'], 12);
