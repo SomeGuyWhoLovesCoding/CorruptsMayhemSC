@@ -2,9 +2,13 @@
 <TextureAtlas imagePath="Corrupt_Dialogue.png">
 	<!-- Created with Adobe Animate version 23.0.0.407 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Corrupt Talk0000" x="566" y="723" width="487" height="654" frameX="-18" frameY="-2" frameWidth="505" frameHeight="656"/>
-	<SubTexture name="Corrupt Talk0001" x="578" y="50" width="491" height="646" frameX="-4" frameY="-10" frameWidth="505" frameHeight="656"/>
-	<SubTexture name="Corrupt Talk0002" x="50" y="723" width="491" height="656" frameX="-1" frameY="0" frameWidth="505" frameHeight="656"/>
-	<SubTexture name="Corrupt Talk0003" x="1078" y="721" width="491" height="645" frameX="0" frameY="-11" frameWidth="505" frameHeight="656"/>
-	<SubTexture name="Corrupt Idle0004" x="50" y="50" width="503" height="648" frameX="-1" frameY="8" frameWidth="505" frameHeight="656"/>
+	<SubTexture name="Corrupt Talk0000" x="5" y="5" width="506" height="642"/>
+	<SubTexture name="Corrupt Talk0001" x="519" y="5" width="506" height="642"/>
+	<SubTexture name="Corrupt Talk0002" x="1033" y="5" width="506" height="642"/>
+	<SubTexture name="Corrupt Talk0003" x="5" y="655" width="506" height="642"/>
+	<SubTexture name="Corrupt Talk Idle0004" x="519" y="655" width="506" height="642"/>
+	<SubTexture name="Corrupt Tired0000" x="1033" y="655" width="372" height="643"/>
+	<SubTexture name="Corrupt Tired0001" x="5" y="1305" width="372" height="643"/>
+	<SubTexture name="Corrupt Tired0002" x="385" y="1305" width="372" height="643"/>
+	<SubTexture name="Corrupt Tired Idle0003" x="1413" y="655" width="372" height="643"/>
 </TextureAtlas>

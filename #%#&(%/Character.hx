@@ -307,7 +307,7 @@ class Character extends FlxSprite
 
 			if(animation.curAnim.finished && animation.getByName(animation.curAnim.name + '-loop') != null)
 			{
-				playAnim(animation.curAnim.name + '-loop');
+				playAnim(animation.curAnim.name + '-loop', true, false);
 			}
 		}
 		super.update(elapsed);
@@ -316,8 +316,11 @@ class Character extends FlxSprite
 	public var danced:Bool = false;
 
 	/**
-	 * FOR GF DANCING SHIT
-	 */
+	
+	FOR GF DANCING SHIT
+	
+	*/
+
 	public function dance()
 	{
 		if (!debugMode && !skipDance && !specialAnim)
@@ -332,7 +335,7 @@ class Character extends FlxSprite
 					playAnim('danceLeft' + idleSuffix);
 			}
 			else if(animation.getByName('idle' + idleSuffix) != null) {
-					playAnim('idle' + idleSuffix);
+					playAnim('idle' + idleSuffix, false);
 			}
 		}
 	}

@@ -91,7 +91,7 @@ class Note extends FlxSprite
 	public var noAnimation:Bool = false;
 	public var noMissAnimation:Bool = false;
 	public var hitCausesMiss:Bool = false;
-	public var distance:Float = 500000; //plan on doing scroll directions soon -bb
+	public var distance:Float = 25; //plan on doing scroll directions soon -bb
 
 	public var hitsoundDisabled:Bool = false;
 

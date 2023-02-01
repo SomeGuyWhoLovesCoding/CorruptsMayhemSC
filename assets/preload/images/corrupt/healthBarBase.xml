@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="healthBarBase.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="healthBarBase0000" x="20" y="20" width="599" height="22"/>
+	<SubTexture name="healthBarBase0001" x="20" y="47" width="599" height="22"/>
+	<SubTexture name="healthBarBase0002" x="20" y="74" width="599" height="22"/>
+	<SubTexture name="healthBarBase0003" x="20" y="101" width="599" height="22"/>
+	<SubTexture name="healthBarBase0004" x="20" y="128" width="599" height="22"/>
+	<SubTexture name="healthBarBase0005" x="20" y="155" width="599" height="22"/>
+	<SubTexture name="healthBarBase0006" x="20" y="182" width="599" height="22"/>
+	<SubTexture name="healthBarBase0007" x="20" y="209" width="599" height="22"/>
+	<SubTexture name="healthBarBase0008" x="20" y="236" width="599" height="22"/>
+	<SubTexture name="healthBarBase0009" x="20" y="263" width="599" height="22"/>
+	<SubTexture name="healthBarBase0010" x="20" y="290" width="599" height="22"/>
+	<SubTexture name="healthBarBase0011" x="20" y="317" width="599" height="22"/>
+	<SubTexture name="healthBarBase0012" x="20" y="344" width="599" height="22"/>
+	<SubTexture name="healthBarBase0013" x="20" y="371" width="599" height="22"/>
+	<SubTexture name="healthBarBase0014" x="20" y="398" width="599" height="22"/>
+	<SubTexture name="healthBarBase0015" x="20" y="425" width="599" height="22"/>
+	<SubTexture name="healthBarBase0016" x="20" y="452" width="599" height="22"/>
+	<SubTexture name="healthBarBase0017" x="20" y="479" width="599" height="22"/>
+	<SubTexture name="healthBarBase0018" x="20" y="506" width="599" height="22"/>
+</TextureAtlas>

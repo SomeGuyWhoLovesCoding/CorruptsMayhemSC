@@ -755,6 +755,7 @@ class EditorPlayState extends MusicBeatState
 			}
 
 			playerStrums.forEach(function(spr:StrumNote)
+			if (!note.isSustainNote)
 			{
 				if (Math.abs(note.noteData) == spr.ID)
 				{

@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Hello Bitch", "corrupt", [77, 77, 77]],
+		["Imminent", "corrupt-frustrated", [77, 77, 77]],
+		["Occlusal", "corrupt-infected", [0, 0, 0]],
+		["Freedom", "corrupt-infected", [0, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"corrupt",
+		"bf",
+		"gf-cage"
+	],
+	"weekBackground": "invention",
+
+	"storyName": "Corrupt's Invention",
+	"weekBefore": "machinery",
+	"weekName": "Corrupt's Invention",
+	"startUnlocked": false,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

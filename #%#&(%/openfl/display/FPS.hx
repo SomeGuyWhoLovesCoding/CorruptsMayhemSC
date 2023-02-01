@@ -46,7 +46,7 @@ class FPS extends TextField
 		currentFPS = 0;
 		selectable = false;
 		mouseEnabled = false;
-		defaultTextFormat = new TextFormat("Courier New Regular", 16, color);
+		defaultTextFormat = new TextFormat("_sans", 15, color);
 		autoSize = LEFT;
 		multiline = true;
 		text = "FPS: ";
@@ -89,36 +89,6 @@ class FPS extends TextField
 			memoryMegas = Math.abs(FlxMath.roundDecimal(0.00265*System.totalMemory / 1024, 0));
 			text += "\n" + memoryMegas + " MB";
 			#end
-
-			if (memoryMegas > 1000)
-			{
-				text == "\n" + memoryMegas / 1000 + " GB";
-			}
-
-			if (memoryMegas > 1000000)
-			{
-				text == "\n" + memoryMegas / 1000000 + " TB";
-			}
-
-			if (memoryMegas > 1000000000)
-			{
-				text == "\n" + memoryMegas / 1000000000 + " PB";
-			}
-
-			if (memoryMegas > 1000000000000)
-			{
-				text == "\n" + memoryMegas / 1000000000000 + " EB";
-			}
-
-			if (memoryMegas > 1000000000000000)
-			{
-				text == "\n" + memoryMegas / 1000000000000000 + " ZB";
-			}
-
-			if (memoryMegas > 1000000000000000000)
-			{
-				text == "\n" + memoryMegas / 1000000000000000000 + " YB";
-			}
 
 			textColor = 0xFFFFFFFF;
 			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 3)

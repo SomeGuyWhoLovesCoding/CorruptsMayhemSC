@@ -492,12 +492,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 		daText.text = curDialogue.text;
 		daText.sound = curDialogue.sound;
-		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'dialogue';
+		if(daText.sound == null || daText.sound.trim() == '') daText.sound = 'dialogue'; // Fucking Done
 		
 		daText.y = DEFAULT_TEXT_Y;
 		if(daText.rows > 2) daText.y -= LONG_TEXT_ADD;
 
 		var char:DialogueCharacter = arrayCharacters[character];
+
 		if(char != null) {
 			char.playAnim(curDialogue.expression, daText.finishedText);
 			if(char.animation.curAnim != null) {

@@ -82,9 +82,8 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Corrupt\'s Mayhem Team'],
-			['SomeGuyWhoLikesFNF',		'fni/sgwlfnf',		'Composer of Corrupt\'s Machinery\nAlso Did Caged GF\'s Placeholder Design and Fixed stuff.',								'SomeGuyWhoLikesFNF#1601',	'9a00ff'],
-			['Patryk',		'fni/patryk',		'Did some charting on Empty',								'Patryk#0973',	'a6ff00'],
-			['Melly',		'fni/melly',		'Charter of Empty',								'Melly#7214',	'dd0000'],
+			['SomeGuyWhoLikesFNF',		'fni/sgwlfnf',		'Composer of Corrupt\'s Machinery\nAlso Did Caged GF\'s Design and Fixed stuff.',								'SomeGuyWhoLikesFNF#9041',	'9a00ff'],
+			['Melly',		'fni/melly',		'Charter of Empty.',								'Melly#7214',	'dd0000'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
