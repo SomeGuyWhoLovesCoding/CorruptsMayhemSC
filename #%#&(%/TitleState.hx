@@ -286,7 +286,9 @@ class TitleState extends MusicBeatState
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
-		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
+		logoBl.animation.addByPrefix('bump', 'logo bumpin', 16, false);
+		logoBl.scale.x = 0.8;
+		logoBl.scale.y = 0.8;
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
@@ -639,9 +641,9 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 1.4);
 					#if PSYCH_WATERMARKS
 					createCoolText(['Corrupt\'s Mayhem by'], 12);
-					addMoreText('Sgwlfnf, and ???', 12);
+					addMoreText('SomeGuyWhoLikesFNF', 12);
 					#else
-					createCoolText(['SomeGuyWhoLikesFNF', 'Fireice421']);
+					createCoolText(['SomeGuyWhoLikesFNF', 'Fuck You']);
 					#end
 				case 3:
 					#if PSYCH_WATERMARKS
@@ -682,24 +684,23 @@ class TitleState extends MusicBeatState
 				case 21:
 					createCoolText(['Why did I'], 12);
 				case 22:
-					addMoreText('Make This', 12);
+					addMoreText('Make This?', 12);
 				case 23:
-					addMoreText('Nothing', 12);
+					addMoreText('Because...', 12);
 				case 24:
 					deleteCoolText();
 				case 25:
-					createCoolText(['This is a fucking'], 12);
+					createCoolText(['This is a'], 12);
 				case 27:
-					addMoreText('God damn Demo', 12);
+					addMoreText('V2', 12);
 				case 28:
-					addMoreText('You fucking bitchess!!', 12);
-				case 30:
 					deleteCoolText();
+				case 30:
 					createCoolText(['IT\'S TIME'], 12);
 					addMoreText('TO KILL YOU', 12);
 				case 32:
 					deleteCoolText();
-					createCoolText(['NOW'], 12);
+					createCoolText(['NOW', 'NOW', 'NOW', 'NOW', 'NOW', 'YOU STUPID FUCK'], 12);
 				case 33:
 					skipIntro();
 			}

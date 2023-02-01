@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				295,
+				267
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "boyfriend attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 14,
+			"name": "GF Idle Dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-4
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "GF Sing Left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-61
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "GF Sing Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				9
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "GF Sing Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "GF Sing Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-3
+			],
+			"anim": "singLEFTmiss",
+			"fps": 14,
+			"name": "GF Sing Left Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				-52
+			],
+			"anim": "singDOWNmiss",
+			"fps": 14,
+			"name": "GF Sing Down Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				2
+			],
+			"anim": "singUPmiss",
+			"fps": 14,
+			"name": "GF Sing Up Miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-8
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 14,
+			"name": "GF Sing Right Miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GIRLFRIEND",
+	"position": [
+		70,
+		330
+	],
+	"healthicon": "gf",
+	"flip_x": true,
+	"healthbar_colors": [
+		160,
+		20,
+		89
+	],
+	"camera_position": [
+		-70,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

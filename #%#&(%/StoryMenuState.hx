@@ -36,10 +36,10 @@ class StoryMenuState extends MusicBeatState
 	var txtWeekTitle:FlxText;
 	var bgSprite:FlxSprite;
 
-	var curCode:String = '';
-	var codeInt = 0;
-	var codeInt2 = 0;
-	var neededCode:Array<String> = ['E', 'M', 'P', 'T', 'Y'];
+	//var curCode:String = '';
+	//var codeInt = 0;
+	//var codeInt2 = 0;
+	//var neededCode:Array<String> = ['E', 'M', 'P', 'T', 'Y'];
 
 	private static var curWeek:Int = 0;
 
@@ -150,7 +150,7 @@ class StoryMenuState extends MusicBeatState
 		difficultySelectors = new FlxGroup();
 		add(difficultySelectors);
 
-		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + 10, grpWeekText.members[0].y + 10);
+		leftArrow = new FlxSprite(grpWeekText.members[0].x + grpWeekText.members[0].width + 90, grpWeekText.members[0].y + 10);
 		leftArrow.frames = ui_tex;
 		leftArrow.animation.addByPrefix('idle', "arrow left");
 		leftArrow.animation.addByPrefix('press', "arrow push left");
@@ -169,7 +169,7 @@ class StoryMenuState extends MusicBeatState
 		sprDifficulty.antialiasing = ClientPrefs.globalAntialiasing;
 		difficultySelectors.add(sprDifficulty);
 
-		rightArrow = new FlxSprite(leftArrow.x + 300, leftArrow.y);
+		rightArrow = new FlxSprite(leftArrow.x + 380, leftArrow.y);
 		rightArrow.frames = ui_tex;
 		rightArrow.animation.addByPrefix('idle', 'arrow right');
 		rightArrow.animation.addByPrefix('press', "arrow push right", 24, false);
@@ -210,7 +210,7 @@ class StoryMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.ANY)
+		/*if (FlxG.keys.justPressed.ANY)
 		{
 			var curKey = FlxG.keys.getIsDown()[0].ID.toString();
 
@@ -242,7 +242,7 @@ class StoryMenuState extends MusicBeatState
 		{
 				curCode = 'EMPTY';
 				codeInt = 0;
-		}
+		}*/
 
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, CoolUtil.boundTo(elapsed * 30, 0, 1)));
 		if(Math.abs(intendedScore - lerpScore) < 10) lerpScore = intendedScore;

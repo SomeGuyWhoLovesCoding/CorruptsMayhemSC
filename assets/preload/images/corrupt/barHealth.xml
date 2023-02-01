@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barHealth.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="barHealth0000" x="20" y="20" width="593" height="14"/>
+	<SubTexture name="barHealth0001" x="20" y="39" width="593" height="14"/>
+	<SubTexture name="barHealth0002" x="20" y="58" width="593" height="14"/>
+	<SubTexture name="barHealth0003" x="20" y="77" width="593" height="14"/>
+	<SubTexture name="barHealth0004" x="20" y="96" width="593" height="14"/>
+	<SubTexture name="barHealth0005" x="20" y="115" width="593" height="14"/>
+	<SubTexture name="barHealth0006" x="20" y="134" width="593" height="14"/>
+	<SubTexture name="barHealth0007" x="20" y="153" width="593" height="14"/>
+	<SubTexture name="barHealth0008" x="20" y="172" width="593" height="14"/>
+	<SubTexture name="barHealth0009" x="20" y="191" width="593" height="14"/>
+	<SubTexture name="barHealth0010" x="20" y="210" width="593" height="14"/>
+	<SubTexture name="barHealth0011" x="20" y="229" width="593" height="14"/>
+	<SubTexture name="barHealth0012" x="20" y="248" width="593" height="14"/>
+	<SubTexture name="barHealth0013" x="20" y="267" width="593" height="14"/>
+	<SubTexture name="barHealth0014" x="20" y="286" width="593" height="14"/>
+	<SubTexture name="barHealth0015" x="20" y="305" width="593" height="14"/>
+	<SubTexture name="barHealth0016" x="20" y="324" width="593" height="14"/>
+	<SubTexture name="barHealth0017" x="20" y="343" width="593" height="14"/>
+	<SubTexture name="barHealth0018" x="20" y="362" width="593" height="14"/>
+</TextureAtlas>

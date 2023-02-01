@@ -17,6 +17,7 @@ import flixel.math.FlxMath;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
@@ -27,7 +28,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.6.3'; //ASS ITS NOT FUCKING 6.2
-	public static var corruptMayhemVersion:String = '1.0.0';
+	public static var corruptMayhemVersion:String = '2.0.0';
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -87,14 +88,6 @@ class MainMenuState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
-		var bgScroll:FlxSprite = new FlxBackdrop(Paths.image('cubesScroll'));
-		bgScroll.alpha = 0.5;
-		bgScroll.velocity.set(-32, 32);
-		bgScroll.scrollFactor.set(0, 0.32);
-		bgScroll.updateHitbox();
-		bgScroll.screenCenter();
-		add(bgScroll);
-
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -105,20 +98,20 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 545 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 60)  + offset);
-			menuItem.scale.x = 0.32;
-			menuItem.scale.y = 0.32;
-			menuItem.scrollFactor.set(0, 0);
-			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var menuItem:FlxSprite = new FlxSprite(60, (i * 140) + offset);
+			menuItem.scale.x = 0.9;
+			menuItem.scale.y = 0.9;
+			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menus/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
 			menuItem.ID = i;
-			menuItem.screenCenter(X);
+			//menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
+			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
 			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
 			menuItem.updateHitbox();
@@ -126,25 +119,21 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-		var versionShitMod:FlxText = new FlxText(0, 4, 0, "Corrupt's Mayhem V" + corruptMayhemVersion + " [DEMO]", 12);
+		var versionShitMod:FlxText = new FlxText(0, 4, 0, "Corrupt's Mayhem V" + corruptMayhemVersion, 12);
 		versionShitMod.scrollFactor.set();
-		versionShitMod.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		versionShitMod.screenCenter(X);
+		versionShitMod.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShitMod);
 		var versionShitBuild:FlxText = new FlxText(0, 28, 0, "OS Verified", 12);
 		versionShitBuild.scrollFactor.set();
-		versionShitBuild.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		versionShitBuild.screenCenter(X);
+		versionShitBuild.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShitBuild);
 		var versionShitEngine:FlxText = new FlxText(0, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShitEngine.scrollFactor.set();
-		versionShitEngine.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		versionShitEngine.screenCenter(X);
+		versionShitEngine.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShitEngine);
 		var versionShit:FlxText = new FlxText(0, FlxG.height - 24, 0, "Friday Night Funkin' v" + Application.current.meta.get('version'), 12);
 		versionShit.scrollFactor.set();
-		versionShit.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		versionShit.screenCenter(X);
+		versionShit.setFormat("VCR OSD Mono", 18, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
 
 		// Changes the text from the second line at the top depends on what device are you in, ig
@@ -159,14 +148,19 @@ class MainMenuState extends MusicBeatState
 		versionShitBuild.text = "Android Build";
 		#end
 
-		// NG.core.calls.event.logEvent('swag').send();
-
 		changeItem();
 
 		super.create();
 	}
 
 	var selectedSomethin:Bool = false;
+
+	// Menus
+
+	var inStory:Bool = false;
+	var inFreeplay:Bool = false;
+	var inTV:Bool = false;
+	var inOptions:Bool = false;
 
 	override function update(elapsed:Float)
 	{
@@ -179,7 +173,7 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
-		if (!selectedSomethin)
+		if (!inStory && !inFreeplay && !inTV && !inOptions)
 		{
 			if (controls.UI_UP_P)
 			{
@@ -195,7 +189,10 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.BACK)
 			{
-				selectedSomethin = true;
+				inStory = false;
+				inFreeplay = false;
+				inTV = false;
+				inOptions = false;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 				MusicBeatState.switchState(new TitleState());
 			}
@@ -208,7 +205,6 @@ class MainMenuState extends MusicBeatState
 				}
 				else
 				{
-					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
 
 					menuItems.forEach(function(spr:FlxSprite)
@@ -232,28 +228,30 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story_mode':
-										MusicBeatState.switchState(new StoryMenuState());
+										//inStory = true;
+										PlayState.SONG = Song.loadFromJson('test', 'test');
+										new FlxTimer().start(0, function(tmr:FlxTimer)
+										{
+												LoadingState.loadAndSwitchState(new PlayState()); 
+										});
 									case 'freeplay':
-										MusicBeatState.switchState(new FreeplayState());
+										inFreeplay = true;
 									case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
-									case 'ost': // Was for 2.0 lmao
+									case 'ost':
 										MusicBeatState.switchState(new OSTState());
-									case 'options':
-										LoadingState.loadAndSwitchState(new options.OptionsState());
 									#if MODS_ALLOWED
 									case 'mods':
 										MusicBeatState.switchState(new ModsMenuState());
 									#end
-
-									// FOR 2.0, LIMITED DEMO FEATURES
-
 									case 'chat':
 										MusicBeatState.switchState(new ChatState());
 									case 'index':
 										MusicBeatState.switchState(new IndexState());
+									case 'options':
+										inOptions = true;
 								}
 							});
 						}
@@ -275,6 +273,26 @@ class MainMenuState extends MusicBeatState
 		{
 			spr.screenCenter(X);
 		});
+	}
+
+	function gotoStory()
+	{
+		// This is a Fucking WIP lol
+	}
+
+	function gotoFreeplay()
+	{
+		// Same thing as story
+	}
+
+	function gotoTV()
+	{
+		// Same thing as story
+	}
+
+	function gotoOptions()
+	{
+		// Same thing as story
 	}
 
 	function changeItem(huh:Int = 0)

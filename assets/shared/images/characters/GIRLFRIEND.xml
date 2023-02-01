@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GIRLFRIEND.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Idle Dance0000" x="1885" y="845" width="294" height="438"/>
+	<SubTexture name="GF Idle Dance0001" x="2179" y="845" width="294" height="438"/>
+	<SubTexture name="GF Idle Dance0002" x="2473" y="845" width="294" height="438"/>
+	<SubTexture name="GF Idle Dance0003" x="2767" y="845" width="294" height="438"/>
+	<SubTexture name="GF Idle Dance0004" x="25" y="1215" width="294" height="438"/>
+	<SubTexture name="GF Idle Dance0005" x="319" y="1277" width="294" height="438"/>
+	<SubTexture name="GF Sing Down0000" x="25" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down0001" x="486" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down0002" x="947" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down0003" x="1408" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down Miss0000" x="1869" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down Miss0001" x="2330" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down Miss0002" x="2791" y="25" width="461" height="379"/>
+	<SubTexture name="GF Sing Down Miss0003" x="25" y="404" width="461" height="379"/>
+	<SubTexture name="GF Sing Left0000" x="613" y="1277" width="293" height="435"/>
+	<SubTexture name="GF Sing Left0001" x="906" y="1277" width="293" height="435"/>
+	<SubTexture name="GF Sing Left0002" x="1199" y="1277" width="293" height="435"/>
+	<SubTexture name="GF Sing Left0003" x="1492" y="1277" width="293" height="435"/>
+	<SubTexture name="GF Sing Left Miss0000" x="1785" y="1283" width="293" height="435"/>
+	<SubTexture name="GF Sing Left Miss0001" x="2078" y="1283" width="293" height="435"/>
+	<SubTexture name="GF Sing Left Miss0002" x="2371" y="1283" width="293" height="435"/>
+	<SubTexture name="GF Sing Left Miss0003" x="2664" y="1283" width="293" height="435"/>
+	<SubTexture name="GF Sing Right0000" x="25" y="783" width="310" height="432"/>
+	<SubTexture name="GF Sing Right0001" x="335" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right0002" x="645" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right0003" x="645" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right Miss0000" x="955" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right Miss0001" x="1265" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right Miss0002" x="1575" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Right Miss0003" x="1575" y="845" width="310" height="432"/>
+	<SubTexture name="GF Sing Up0000" x="486" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up0001" x="804" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up0002" x="1122" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up0003" x="1440" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up Miss0000" x="1758" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up Miss0001" x="2076" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up Miss0002" x="2394" y="404" width="318" height="441"/>
+	<SubTexture name="GF Sing Up Miss0003" x="2712" y="404" width="318" height="441"/>
+</TextureAtlas>

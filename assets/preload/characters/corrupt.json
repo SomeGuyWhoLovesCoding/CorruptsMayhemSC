@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 14,
-			"name": "Corrupt Idle Dance",
+			"anim": "idle",
+			"indices": [],
+			"name": "Corrupt Idle Dance"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				4
+			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "Corrupt Sing Note Left",
 			"indices": []
 		},
 		{
-			"offsets": [
-				37,
-				8
-			],
-			"indices": [],
-			"fps": 16,
-			"anim": "singLEFT",
 			"loop": false,
-			"name": "Corrupt Sing Note Left"
-		},
-		{
 			"offsets": [
-				-29,
-				2
+				-39,
+				-42
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Corrupt Sing Note Down"
+			"fps": 16,
+			"name": "Corrupt Sing Note Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-31,
-				141
+				-58,
+				126
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Corrupt Sing Note Up"
+			"fps": 16,
+			"name": "Corrupt Sing Note Up",
+			"indices": []
 		},
 		{
-			"offsets": [
-				94,
-				4
-			],
-			"indices": [],
-			"fps": 16,
-			"anim": "singRIGHT",
 			"loop": false,
-			"name": "Corrupt Sing Note Right"
+			"offsets": [
+				50,
+				-2
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "Corrupt Sing Note Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,

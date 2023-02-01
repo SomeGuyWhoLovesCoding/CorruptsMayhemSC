@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["", "ender", [0, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"corrupt-tired",
+		"bf",
+		"gf-cage"
+	],
+	"weekBackground": "ddddddddddddddd",
+
+	"storyName": "Corrupt's End",
+	"weekBefore": "mistake",
+	"weekName": "Corrupt's End",
+	"startUnlocked": false,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

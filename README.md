@@ -7,3 +7,4 @@ For Debug Builds:
 * It also disable shaders for builds like this, like the scrolling shader, etc.
 
 <!--- Hey, This is a sub-mod of Friday Night Jammin'! View it at https://someguywholovescoding.github.io/FridayNightJammin/ --->
+THIS IS OLD, PLEASE CHECK OUT THE NEW REPO AT [THIS LINK](www.github.com/SomeGuyWhoLovesCoding/CorruptsMayhemV2-SC)

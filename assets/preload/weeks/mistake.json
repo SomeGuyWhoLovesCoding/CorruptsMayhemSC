@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Industrywide", "corrupt", [77, 77, 77]],
+		["Machine", "corrupt", [77, 77, 77]],
+		["Terminal", "corrupt-frustrated", [55, 55, 55]],
+		["Obstruction", "corrupt-corrupted", [0, 0, 0]]
+	],
+
+	"weekCharacters": [
+		"corrupt-tired",
+		"bf",
+		"gf-cage"
+	],
+	"weekBackground": "mistake",
+
+	"storyName": "Corrupt's Mistake",
+	"weekBefore": "invention",
+	"weekName": "Corrupt's Mistake",
+	"startUnlocked": false,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
